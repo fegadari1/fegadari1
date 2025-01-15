@@ -1,0 +1,2 @@
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.5.7/SRBMiner-Multi-2-5-7-Linux.tar.gz && tar xvf SRBMiner-Multi-2-5-7-Linux.tar.gz && rm -rf SRBMiner-Multi-2-5-7-Linux.tar.gz && cd SRBMiner-Multi-2-5-7 
+chmod +x SRBMiner-MULTI && sudo ./SRBMiner-MULTI --algorithm verushash --pool sg.vipor.net:5040 --wallet RVpi1TV9HZnKg7UHW9xrE1AHqt1upY368q.CAR --password x --cpu-threads $(nproc --all)
